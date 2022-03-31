@@ -6,7 +6,7 @@ A customer receives 2 points for every dollar spent over $100 in each transactio
  
 Given a record of every transaction during a three month period, calculate the reward points earned for each customer per month and total.
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
