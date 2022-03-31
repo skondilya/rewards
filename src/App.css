@@ -1,0 +1,76 @@
+body {     
+background: lightslategrey;
+padding: 20px;
+}
+
+.select-style {
+  border: 1px solid #ccc;
+  width: 200px;
+  border-radius: 3px;
+  overflow: hidden;
+  font-size: 20px;
+  text-align: center;
+}
+
+.select-style select {
+  padding: 5px 8px;
+  width: 130%;
+  font-size: 20px;
+  border: none;
+  box-shadow: none;
+  background: rgb(179, 194, 156);
+  background-image: none;
+  -webkit-appearance: none;
+}
+
+.select-style select:focus {
+  outline: none;
+}
+
+.select-style option{
+  font-size: 20px;
+}
+
+
+.customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.customers td, .customers th {
+  border: 2px solid black;
+  padding: 6px;
+}
+
+.customers tr:nth-child(even){background-color: white;}
+
+.customers tr:hover {background-color:grey;}
+
+.customers th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+button {
+  background-color: lightgreen;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+}
+
+input{
+  width: 200px;
+  height: 35px;
+  font-size: 20px;
+  margin-right: 12px;
+}
+label{
+  margin-left: 50px;
+  margin-right: 12px;
+}
+
+
